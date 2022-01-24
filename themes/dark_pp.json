@@ -196,28 +196,36 @@
             "scope": "variable.parameter",
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#e7a456"
+				"foreground": "#c1e9ff"
             }
         },
 		{
             "name": "this.self",
             "scope": "variable.language",
             "settings": {
-                "foreground": "#e7a456"
+                "foreground": "#db9c53"
             }
         },
 		{
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#6f8175",
+                "foreground": "#585858",
 				"fontStyle": "italic"
             }
-        }
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#CE9178",
+				"fontStyle": "italic"
+			}
+		},
 	],
 	"semanticTokenColors": {
 		"newOperator":"#C586C0",
-		"stringLiteral":"#ce9178",
+		"stringLiteral":"#CE9178",
 		"customLiteral": "#DCDCAA",
 		"numberLiteral": "#b5cea8",
 	}
